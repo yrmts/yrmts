@@ -3,6 +3,16 @@ body {
   background-size: 100%;
 }
 
+.wrapper {
+  height: 100px;
+  width: 100px;
+  background: red;
+  margin:10px;
+  text-align: center;
+  display:table-cell;
+  vertical-align:middle;
+}
+
 h1 {
   font-family: 'Megrim', cursive;
   color: #fff;
@@ -20,3 +30,4 @@ a {font-family: 'Roboto', sans-serif;
   color: #fff;
   text-decoration: none;
 }
+
