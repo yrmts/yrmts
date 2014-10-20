@@ -16,6 +16,7 @@ h1 {
 }
 
 .name{
+  position: absolute;
   margin: 0 auto;
   top: 500px;
 }
