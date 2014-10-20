@@ -67,6 +67,7 @@ a {
   font-family: 'Halant', serif;
   font-style: bold;
   font-weight: 10;
+  opacity: 0.7;
 }
 
 .news-post {
@@ -74,11 +75,13 @@ a {
   font-family: 'Halant', serif;
   font-style: italic;
   font-weight: 10;
+  opacity: 0.7;
 }
 
 #news h3{
   color: #fff;
   font-family: 'Roboto', sans-serif;
+  opacity: 0.7;
 }
 
 
