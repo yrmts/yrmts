@@ -1,6 +1,6 @@
 var main = function(){
   $('p').click(function(){
-   $(this).hide('drop', {direction: 'down'}, 1200); 
+   $(this).hide('drop', {direction: 'down'}, 2000); 
   })
 };
 
