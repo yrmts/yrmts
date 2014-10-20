@@ -6,33 +6,33 @@ body {
   background-size: cover;
 }
 
-.wrapper {
-  width: 100%;
-  height: 100%;
-  position: relative;
+.outer {
+    display: table;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0.8;
 }
 
-#parent{
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  margin: auto;
-  opacity: 0.8;
-  height: 50%;
-  width: 50%;
-  text-align: center;
+.middle {
+    display: table-cell;
+    vertical-align: middle;
 }
 
-#parent h1 {
+.inner {
+    margin-left: auto;
+    margin-right: auto; 
+    width: /*whatever width you want*/;
+}
+
+h1 {
   font-family: 'Megrim', cursive;
   color: #fff;
   font-size: 70px;
   font-weight: 100;
 }
 
-#parent p {
+p {
   font-family: 'Roboto', sans-serif;
   color: #fff;
   font-size: 18px;
@@ -41,7 +41,8 @@ body {
 span {
   display: inline-block;
   vertical-align: middle;
-  line-height: normal;      
+  line-height: normal;  
+  text-align: center;
 }
 
 a {font-family: 'Roboto', sans-serif;
