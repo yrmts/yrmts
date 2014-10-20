@@ -6,7 +6,7 @@ body {
   background-size: cover;
 }
 
-h1 {
+#parent h1 {
   font-family: 'Megrim', cursive;
   color: #fff;
   font-size: 70px;
@@ -22,15 +22,7 @@ h1 {
   width: 100%;
 }
 
-.center {
-  position: absolute;
-  margin: auto;
-  text-align: center;
-  width: 100%;
-  height: 80px;
-}
-
-.center p {
+#parent p {
   position: relative;
   margin: auto;
   text-align:center;
