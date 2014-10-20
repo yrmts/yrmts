@@ -13,6 +13,7 @@ h1 {
   color: #fff;
   font-size: 70px;
   font-weight: 100;
+  opacity: 0.8;
 }
 
 .name{
@@ -22,7 +23,6 @@ h1 {
   bottom: 200px;
   right: 0;
   left: 0;
-  opacity: 70%;
 }
 
 p {
@@ -30,10 +30,12 @@ p {
   color: #fff;
   font-size: 18px;
   font-weight: 90;
+  opacity: 0.8;
 }
 
 a {font-family: 'Roboto', sans-serif;
   color: #fff;
   text-decoration: none;
+  opacity: 0.8;
 }
 
