@@ -33,6 +33,10 @@ h1 {
   opacity: 0.75;
 }
 
+.name p:hover {
+  cursor: pointer;
+}
+
 a {
   font-family: 'Roboto', sans-serif;
   color: #fff;
