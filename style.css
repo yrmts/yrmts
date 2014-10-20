@@ -59,17 +59,20 @@ a {
   background-color: #000;
   opacity: 0.2;
   margin: 0 auto;
+  padding: 5px 5px 5px 5px;
 }
 
 .date {
   color: #fff;
-  font-family: georgia;
+  font-family: 'Halant', serif;
+  font-style: bold;
   font-weight: 10;
 }
 
 .news-post {
   color: #fff;
-  font-family: georgia;
+  font-family: 'Halant', serif;
+  font-style: italic;
   font-weight: 10;
 }
 
