@@ -21,6 +21,10 @@ body {
     margin-left: auto;
     margin-right: auto; 
     width: 50%;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;  
+    text-align: center;
 }
 
 h1 {
@@ -34,13 +38,6 @@ p {
   font-family: 'Roboto', sans-serif;
   color: #fff;
   font-size: 18px;
-}
-
-span {
-  display: inline-block;
-  vertical-align: middle;
-  line-height: normal;  
-  text-align: center;
 }
 
 a {font-family: 'Roboto', sans-serif;
