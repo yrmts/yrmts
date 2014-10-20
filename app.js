@@ -1,5 +1,5 @@
 var main = function(){
-  $('p').hover(function(){
+  $('div').hover(function(){
    $(this).fadeOut(100);
   })
 };
