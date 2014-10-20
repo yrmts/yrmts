@@ -16,7 +16,7 @@ h1 {
 .center {
   position: absolute;
   margin: auto;
-  top: 0;
+  top: 50%;
   bottom: 0;
   left: 0;
   right: 0;
@@ -29,7 +29,7 @@ h1 {
 .enter {
   position: relative;
   margin: auto;
-  top:;
+  top: 10%;
   bottom:;
   left:;
   right:;
