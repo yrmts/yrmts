@@ -38,6 +38,12 @@ body {
   font-size: 18px;
 }
 
+span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;      
+}
+
 a {font-family: 'Roboto', sans-serif;
   color: #fff;
   text-decoration: none;
