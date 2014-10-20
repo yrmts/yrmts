@@ -61,11 +61,22 @@ a {
   margin: 0 auto;
 }
 
-.date {}
+.date {
+  color: #fff;
+  font-family: georgia;
+  font-weight: 10;
+}
 
-.news-post {}
+.news-post {
+  color: #fff;
+  font-family: georgia;
+  font-weight: 10;
+}
 
-#news h3{}
+#news h3{
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
 
 
 
