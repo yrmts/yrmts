@@ -12,6 +12,7 @@ h1 {
 
 .center {
   margin: 0 auto;
+  opacity: 0.7;
 }
 
 .center p {
