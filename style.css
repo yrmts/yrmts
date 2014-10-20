@@ -23,13 +23,13 @@ h1 {
   opacity: 0.8;
   text-align: center;
   width: 100%;
-  height: 100%;
+  height: 80px;
 }
 
 .enter {
   position: relative;
   margin: auto;
-  top: 10%;
+  top: 50%;
   bottom:;
   left:;
   right:;
