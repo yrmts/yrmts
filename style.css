@@ -23,8 +23,6 @@ body {
 }
 
 #parent p {
-  position: relative;
-  margin: auto;
   text-align:center;
   font-family: 'Roboto', sans-serif;
   color: #fff;
