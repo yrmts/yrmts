@@ -44,7 +44,7 @@ a {
   opacity: 0.75;}
 
 #news{
-  height: 330px;
+  height: 370px;
   width: 300px;
   position: absolute;
   left: 70%;
@@ -54,8 +54,8 @@ a {
 }
 
 #news-box{
-  height: 290px;
-  width: 260px;
+  height: 330px;
+  width: 300px;
   background-color: #000;
   opacity: 0.2;
   margin: 0 auto;
