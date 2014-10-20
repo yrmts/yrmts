@@ -18,7 +18,10 @@ h1 {
 .name{
   position: absolute;
   margin: 0 auto;
-  top: 500px;
+  top: 100px;
+  bottom: 0;
+  right: 0;
+  left: 0;
 }
 
 p {
