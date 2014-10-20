@@ -4,29 +4,6 @@ body {
   background-size: cover;
 }
 
-.outer {
-    display: table;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    opacity: 0.8;
-}
-
-.middle {
-    display: table-cell;
-    vertical-align: middle;
-}
-
-.inner {
-    margin-left: auto;
-    margin-right: auto; 
-    width: 50%;
-    display: inline-block;
-    vertical-align: middle;
-    line-height: normal;  
-    text-align: center;
-}
-
 h1 {
   font-family: 'Megrim', cursive;
   color: #fff;
