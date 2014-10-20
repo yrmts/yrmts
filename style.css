@@ -44,11 +44,11 @@ a {
   opacity: 0.75;}
 
 #news{
-  height: 360px;
+  height: 355px;
   width: 300px;
   position: absolute;
   left: 70%;
-  top: 30%;
+  top: 34%;
   bottom: 30%;
   right: 20%;
 }
