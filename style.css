@@ -48,17 +48,28 @@ a {
   width: 300px;
   position: absolute;
   left: 65%;
-  top: 37%;
+  top: 36%;
   bottom: 40%;
   right: 20%;
   opacity: 0.2;
 }
 
-#news-box{
+#bg-box{
   height: 330px;
   width: 300px;
   background-color: #000;
+  position: absolute;
+  left: 65%;
+  top: 36%;
+  bottom: 40%;
+  right: 20%;
   opacity: 0.7;
+  margin: 0 auto;
+  padding: 5px 5px 5px 5px;
+
+#news-box{
+  height: 330px;
+  width: 300px;
   margin: 0 auto;
   padding: 5px 5px 5px 5px;
 }
