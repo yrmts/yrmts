@@ -15,6 +15,11 @@ h1 {
   font-weight: 100;
 }
 
+name{
+  top: 200px;
+  
+}
+
 p {
   font-family: 'Roboto', sans-serif;
   color: #fff;
