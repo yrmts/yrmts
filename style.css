@@ -37,22 +37,5 @@ a {
   font-family: 'Roboto', sans-serif;
   color: #fff;
   text-decoration: none;
-  opacity: 0.75;
-  -webkit-transition: text-shadow 0.2s linear;
-  -moz-transition: text-shadow 0.2s linear;
-  -ms-transition: text-shadow 0.2s linear;
-  -o-transition: text-shadow 0.2s linear;
-  transition: text-shadow 0.2s linear;
-}
-
-p a {
-    -webkit-transition: text-shadow 0.2s linear;
-    -moz-transition: text-shadow 0.2s linear;
-    -ms-transition: text-shadow 0.2s linear;
-    -o-transition: text-shadow 0.2s linear;
-    transition: text-shadow 0.2s linear;
-}
-
-a:hover{
-  text-shadow: 0 0 10px white:}
+  opacity: 0.75;}
 
