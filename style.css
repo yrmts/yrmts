@@ -18,6 +18,10 @@ body {
   position: absolute;
 }
 
+.center{
+  top: 70px;
+}
+
 h1 {
   font-family: 'Megrim', cursive;
   color: #fff;
