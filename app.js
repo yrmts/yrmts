@@ -1,7 +1,7 @@
 var main = function(){
   $('p').click(function(){
-   $(this).hide('drop', {direction: 'down'}, 1400); 
-   $('h1').hide('drop', {direction: 'down'}, 1800);
+   $(this).hide('drop', {direction: 'down'}, 1700); 
+   $('h1').delay(800).hide('drop', {direction: 'down'}, 1800);
   })
 };
 
