@@ -13,6 +13,10 @@ h1 {
   font-weight: 100;
 }
 
+#parent{
+  position: relative;
+}
+
 .center {
   position: absolute;
   margin: auto;
