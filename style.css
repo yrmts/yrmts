@@ -24,13 +24,13 @@ h1 {
 }
 
 .center p {
-  font-family: 'Megrim', cursive;
+  font-family: 'Roboto', sans-serif;
   color: #fff;
   font-size: 18px;
   font-weight: 10;
 }
 
-a {font-family: 'Megrim', cursive;
+a {font-family: 'Roboto', sans-serif;
   color: #fff;
   font-weight: 10;
   text-decoration: none;
