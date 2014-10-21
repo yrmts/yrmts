@@ -29,13 +29,13 @@ var main = function(){
     }
   });
   
-  $('.menu li:nth-child(2)').click(function(){
-    $('currentPage').animate({ left: '-=%100' }, 600, 'easeOutSine');
-    $('.profile').animate({ left: '-=100px' }, 600, 'easeInSine');
+  $('.menu ul li:nth-child(2)').click(function(){
+    $('currentPage').animate({ left: '600px' }, 600, 'easeOutSine');
+    $('.profile').animate({ left: '0px' }, 600, 'easeInSine');
     
     $('currentPage').removeClass('current');
     $('.profile').addClass('current');
-  })
+  });
   
 };
 
