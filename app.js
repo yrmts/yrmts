@@ -18,7 +18,7 @@ var main = function(){
     
     $('.menu').animate({
       left: "0px"
-      }, 1000);
+      }, 1300);
   });
   
 };
