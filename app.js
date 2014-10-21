@@ -14,7 +14,7 @@ var main = function(){
   $('#menu-icon').click(function(){
     $('#menu-icon').animate({
       left: "285px"
-    }, 700)
+    }, 500)
     
     $('.menu').animate({
       left: "0px"
