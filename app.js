@@ -11,28 +11,21 @@ var main = function(){
   $('#news-title').hide();
   $('#menu-icon').hide();
   
-  $('#menu-icon').toggle(
-    
-    function(){
-      $('#menu-icon').animate({
-        left: "285px"}, 500
-      );
-      $('.menu').animate({
-        left: "0px"}, 1300
-      );
+  $( "#target" ).toggle(function() {
+  alert( "First handler for .toggle() called." );
+}, function() {
+  alert( "Second handler for .toggle() called." );
+});
+  
+  $('#menu-icon').toggle(function(){
+      $('#menu-icon').animate({left: "285px"}, 500);
+      $('.menu').animate({left: "0px"}, 1300);
     },
-    
     function(){
-      $('#menu-icon').delay(200).animate({
-        left: "3.9%"
-        }, 600
-      );
-      $('.menu').animate({
-        left: "-285px"
-        }, 600
-      );
+      $('#menu-icon').delay(200).animate({left: "3.9%"}, 600);
+      $('.menu').animate({left: "-285px"}, 600);
     }
-  );
+  });
   
   $('.menu li:first').click(function(){
     $('.menu').animate({
