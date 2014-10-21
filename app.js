@@ -24,8 +24,8 @@ var main = function(){
     
         
     else {
-      $('#menu-icon').animate({left: “285px"}, 500);
-      $('.menu').animate({left: “0px"}, 1300);
+      $('#menu-icon').animate({left: "285px"}, 500);
+      $('.menu').animate({left: "0px"}, 1300);
       $('#menu-icon').addClass('active');
     }
   });
