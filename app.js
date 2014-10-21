@@ -25,7 +25,7 @@ var main = function(){
       $('#menu-icon').delay(200).animate({left: "3.9%"}, 600);
       $('.menu').animate({left: "-285px"}, 600);
     }
-  });
+  );
   
   $('.menu li:first').click(function(){
     $('.menu').animate({
