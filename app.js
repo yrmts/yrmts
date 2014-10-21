@@ -30,16 +30,16 @@ var main = function(){
   });
   
   $('.menu ul li:nth-child(2)').click(function(){
-    $('currentPage').animate({ direction: 'left' }, 2000, 'easeOutSine');
-    $('.profile').animate({ direction: 'left' }, 2000, 'easeInSine');
+    $('currentPage').fadeOut(2000);
+    $('.profile').fadeIn(2000);
     
     $('currentPage').removeClass('current');
     $('.profile').addClass('current');
   });
   
   $('.menu ul li:nth-child(1)').click(function(){
-    $('currentPage').animate({ direction: 'left' }, 2000, 'easeOutSine');
-    $('.home').animate({ direction: 'left' }, 2000, 'easeInSine');
+    $('currentPage').fadeOut(2000);
+    $('.home').fadeIn(2000);
     
     $('currentPage').removeClass('current');
     $('.home').addClass('current');
