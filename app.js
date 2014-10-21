@@ -10,10 +10,6 @@ var main = function(){
   $('#news').hide();
   $('#news-title').hide();
   $('#menu-icon').hide();
-  
-  $('.menu li:first').click(function(){
-    $('.menu').animate({left: "-285px"}, 600)
-  });
     
   $('#menu-icon').click(function(){
     if ($('#menu-icon').hasClass('active')){
