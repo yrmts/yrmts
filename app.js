@@ -12,9 +12,13 @@ var main = function(){
   $('#menu-icon').hide();
   
   $('#menu-icon').click(function(){
+    $(this).animate({
+      left: "0px"
+    }, 1000)
+    
     $('.menu').animate({
       left: "0px"
-      }, 600);
+      }, 1000);
   });
   
 };
