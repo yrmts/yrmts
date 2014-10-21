@@ -53,23 +53,21 @@ a {
 }
 
 .date {
-  color: #fff;
+  color: rgba(100, 100, 100, 0.7);
   font-family: 'Halant', serif;
   font-style: bold;
   font-weight: 10;
-  filter: alpha(opacity=70);
 }
 
 .news-post {
-  color: #fff;
+  color: rgba(100, 100, 100, 0.7);
   font-family: 'Halant', serif;
   font-style: italic;
   font-weight: 10;
-  filter: alpha(opacity=70);
 }
 
 #news-title {
-  color: #fff;
+  color: rgba(100, 100, 100, 0.7);
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
 }
