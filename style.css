@@ -86,6 +86,10 @@ a {
   left: 3.9%;
 }
 
+#menu:hover{
+  cursor: pointer;
+}
+
 
 
 
