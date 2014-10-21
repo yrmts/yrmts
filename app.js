@@ -11,7 +11,9 @@ var main = function(){
   $('#news-title').hide();
   $('#menu-icon').hide();
   
-  
+  $('.menu li:first').click(function(){
+    $('.menu').animate({left: "-285px"}, 600)
+  });
     
   
 };
