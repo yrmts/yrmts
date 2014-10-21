@@ -12,8 +12,10 @@ body {
 }
 
 .main {
-  position: absolute;
-  left: 0px;
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
 }
 
 h1 {
