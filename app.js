@@ -30,7 +30,7 @@ var main = function(){
   });
   
   $('.menu ul li:nth-child(2)').click(function(){
-    $('currentPage').animate({ left: '600px' }, 600, 'easeOutSine');
+    $('currentPage').animate({ left: '1400px' }, 600, 'easeOutSine');
     $('.profile').animate({ left: '0px' }, 600, 'easeInSine');
     
     $('currentPage').removeClass('current');
