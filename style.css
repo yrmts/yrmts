@@ -101,9 +101,16 @@ a {
   left: 0px;
   height: 100%;
   width: 16%;
+  vertical-align: medium;
 }
 
+.menu ul{
+   list-style-type: none;
+}
 
+.menu li{
+  margin: 10px;
+}
 
 
 
