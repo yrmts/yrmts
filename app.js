@@ -24,11 +24,6 @@ var main = function(){
     };
   });
     
-    function(){
-      
-    }
-  );
-  
   $('.menu li:first').click(function(){
     $('.menu').animate({
       left: "-285px"
