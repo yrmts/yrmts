@@ -13,13 +13,11 @@ var main = function(){
   
   $('#menu-icon').click(function(){
     $('#menu-icon').animate({
-      left: "285px"
-    }, {width: "toggle"}, 500
+      left: "285px", width: "toggle"}, 500
     );
     
     $('.menu').animate({
-      left: "0px"
-      }, {width: "toggle"}, 1300
+      left: "0px", width: "toggle"}, 1300
     );
   });
   
