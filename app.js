@@ -22,14 +22,14 @@ var main = function(){
       $('.menu').animate({left: "0px"}, 1300);
       $('#menu-icon').addClass('active');}
     };
-  });
+  })
     
   $('.menu li:first').click(function(){
     $('.menu').animate({
       left: "-285px"
       }, 600
-    );
-  };
+    )
+  }
 };
 
 
