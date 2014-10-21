@@ -14,11 +14,12 @@ var main = function(){
   $('#menu-icon').click(function(){
     $('#menu-icon').animate({
       left: "285px"
-    }, 500)
+    }, {width: "toggle"}, 500
+    );
     
     $('.menu').animate({
       left: "0px"
-      }, 1300
+      }, {width: "toggle"}, 1300
     );
   });
   
