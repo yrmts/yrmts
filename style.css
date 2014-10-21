@@ -51,6 +51,8 @@ a {
   top: 36%;
   bottom: 40%;
   right: 20%; 
+  margin: 10px 10px 10px 10px;
+  background-color: red;
 }
 
 #news-box{
@@ -58,7 +60,7 @@ a {
   width: 300px;
   background-color: #000;
   margin: 0 auto;
-  padding: 5px 5px 5px 5px;
+  padding: 6px 6px 6px 6px;
   opacity: 0.2;
 }
 
