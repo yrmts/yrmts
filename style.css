@@ -11,6 +11,11 @@ body {
           background-size: cover;
 }
 
+.main {
+  position: absolute;
+  left: 0px;
+}
+
 h1 {
   font-family: 'Megrim', cursive;
   color: #fff;
@@ -116,9 +121,6 @@ a {
 .menu li{
   margin: 25px 65px 25px 25px;
 }
-
-
-
 
 
 
