@@ -145,8 +145,13 @@ a {
 
 }
 
-
-
+.profile{
+  position: absolute;
+  left: -600px;
+  background-color: #fff;
+  height: 100%;
+  width: 100%;
+}
 
 
 
