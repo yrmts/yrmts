@@ -11,12 +11,6 @@ var main = function(){
   $('#news-title').hide();
   $('#menu-icon').hide();
   
-  $( "#target" ).toggle(function() {
-  alert( "First handler for .toggle() called." );
-}, function() {
-  alert( "Second handler for .toggle() called." );
-});
-  
   $('#menu-icon').toggle(function(){
       $('#menu-icon').animate({left: "285px"}, 500);
       $('.menu').animate({left: "0px"}, 1300);
