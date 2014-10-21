@@ -14,13 +14,13 @@ var main = function(){
   $('#menu-icon').toggle(
     function(){
       $('#menu-icon'.animate({
-        left: "285px", width: "toggle"
-      }, 500
+        left: "285px"}, 500
       );
       $('.menu').animate({
-        left: "0px", width: "toggle"}, 1300
+        left: "0px"}, 1300
       );
     };
+    
     function(){
       $('.menu').animate({
         left: "-285px"
@@ -31,6 +31,7 @@ var main = function(){
         left: "3.9%"
         }, 600
       );
+      
     };
   });
   
