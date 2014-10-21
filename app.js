@@ -16,7 +16,7 @@ var main = function(){
       left: "0px"
       }, 600);
     $('body').animate({
-      left: "16%"
+      left: "285px"
       }, 600);
   });
   
