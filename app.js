@@ -27,7 +27,7 @@ var main = function(){
       );
     
       $('#menu-icon').delay(600).animate({
-        left: "20px"
+        left: "40px"
         }, 1000
       );
     });
