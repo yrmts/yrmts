@@ -12,9 +12,9 @@ var main = function(){
   $('#menu-icon').hide();
   
   $('#menu-icon').click(function(){
-    $(this).animate({
+    $('#menu-icon').animate({
       left: "285px"
-    }, 1000)
+    }, 600)
     
     $('.menu').animate({
       left: "0px"
