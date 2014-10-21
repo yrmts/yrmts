@@ -78,6 +78,12 @@ a {
   right: 30.2%;
 }
 
+#menu {
+  filter: alpha(opacity=75);
+  width: 50;
+  height: 100;
+}
+
 
 
 
