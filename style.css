@@ -124,11 +124,17 @@ a {
   margin: 25px 65px 25px 25px;
 }
 
-.menu li:hover{
+.menu li:hover, .menu li:focus, .menu li:active{
   cursor: pointer;
-  -moz-box-shadow: 0 0 5px #fff;
-  -webkit-box-shadow: 0 0 5px #fff;
-  box-shadow: 0px 0px 5px #fff;
+  -webkit-stroke-width: 5.3px;
+  -webkit-stroke-color: #FFFFFF;
+  -webkit-fill-color: #FFFFFF;
+  text-shadow: 1px 0px 20px #fff;
+  -webkit-transition: width 0.3s; /*Safari & Chrome*/
+  transition: width 0.3s;
+  -moz-transition: width 0.3s; /* Firefox 4 */
+  -o-transition: width 0.3s; /* Opera */
+
 }
 
 
