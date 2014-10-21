@@ -176,6 +176,14 @@ a {
   font-size: 12px;
 }
 
+#profile-title{
+  color: rgba(255, 255, 255, 0.7);
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  position: absolute;
+  bottom: 61%;
+  right: 30.2%;
+}
 
 
 
