@@ -11,7 +11,7 @@ var main = function(){
   $('#news-title').hide();
   $('#menu-icon').hide();
   
-  $('#menu-icon').toggle(function(){
+  $('#menu-icon').click(function(){
       $('#menu-icon').animate({left: "285px"}, 500);
       $('.menu').animate({left: "0px"}, 1300);
     },
