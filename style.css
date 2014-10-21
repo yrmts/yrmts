@@ -146,11 +146,12 @@ a {
 }
 
 .profile{
-  position: absolute;
+  position: fixed;
   left: -1400px;
   background-color: #fff;
   height: 100%;
   width: 100%;
+  margin: 0;
 }
 
 
