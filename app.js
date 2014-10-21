@@ -38,8 +38,8 @@ var main = function(){
   });
   
   $('.menu ul li:nth-child(1)').click(function(){
-    $('currentPage').animate({ direction: '1400px' }, 2000, 'easeOutSine');
-    $('.home').animate({ left: '0px' }, 2000, 'easeInSine');
+    $('currentPage').animate({ direction: 'left' }, 2000, 'easeOutSine');
+    $('.home').animate({ direction: 'left' }, 2000, 'easeInSine');
     
     $('currentPage').removeClass('current');
     $('.home').addClass('current');
