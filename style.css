@@ -25,7 +25,7 @@ h1 {
   left: 0;
 }
 
-p {
+.name p {
   font-family: 'Roboto', sans-serif;
   color: #fff;
   font-size: 18px;
@@ -33,9 +33,64 @@ p {
   opacity: 0.75;
 }
 
+.name p:hover {
+  cursor: pointer;
+}
+
 a {
   font-family: 'Roboto', sans-serif;
   color: #fff;
   text-decoration: none;
   opacity: 0.75;}
+
+#news{
+  height: 350px;
+  width: 300px;
+  position: absolute;
+  bottom: 5%;
+  right: 10%;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 15px;
+}
+
+.date {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: 'Halant', serif;
+  font-style: italic;
+  font-weight: 20;
+  font-size: 16px;
+}
+
+.news-post {
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'Halant', serif;
+  font-style: italic;
+  font-weight: 10;
+  font-size: 12px;
+}
+
+#news-title {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  position: absolute;
+  bottom: 61%;
+  right: 30.2%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
