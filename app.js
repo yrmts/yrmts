@@ -20,14 +20,14 @@ var main = function(){
       left: "0px"
       }, 1300);
       
-    $('body').click(function(){
+    $('.menu li:first').click(function(){
       $('.menu').animate({
         left: "-285px"
         }, 600
       );
     
       $('#menu-icon').delay(600).animate({
-        left: "40px"
+        left: "60px"
         }, 1000
       );
     });
