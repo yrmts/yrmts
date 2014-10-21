@@ -20,13 +20,13 @@ var main = function(){
       left: "0px"
       }, 1300);
       
-    $('.main').click(function(){
+    $('body').click(function(){
       $('.menu').animate({
         left: "285px"
         }, 600
       );
     
-      $('#menu-icon').animate({
+      $('#menu-icon').delay(600).animate({
         left: "0px"
         }, 1000
       );
