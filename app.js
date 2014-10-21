@@ -9,7 +9,7 @@ var main = function(){
   
   $('#news').hide();
   $('#news-title').hide();
-  $('.menu').hide();
+  $('#menu-icon').hide();
   
   $('#menu-icon').click(function(){
     $('.menu').animate({
