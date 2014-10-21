@@ -12,11 +12,11 @@ var main = function(){
   $('#menu-icon').hide();
   
   $('#menu-icon').click(function(){
-    $('#menu-icon').animate({
+    $('#menu-icon').animate(toggle, {
       left: "285px"
     }, 500)
     
-    $('.menu').animate({
+    $('.menu').animate(toggle, {
       left: "0px"
       }, 1300);
   });
