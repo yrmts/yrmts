@@ -13,7 +13,7 @@ h1 {
   color: #fff;
   font-size: 70px;
   font-weight: 100;
-  opacity: 0.75;
+  opacity: 0.72;
 }
 
 .name{
@@ -30,7 +30,7 @@ h1 {
   color: #fff;
   font-size: 18px;
   font-weight: 90;
-  opacity: 0.75;
+  opacity: 0.72;
 }
 
 .name p:hover {
@@ -41,7 +41,7 @@ a {
   font-family: 'Roboto', sans-serif;
   color: #fff;
   text-decoration: none;
-  opacity: 0.75;}
+  opacity: 0.72;}
 
 #news{
   height: 350px;
@@ -80,7 +80,7 @@ a {
 
 #menu {
   filter: alpha(opacity=75);
-  opacity: 0.75;
+  opacity: 0.72;
   position: absolute;
   top: 7%;
   left: 3.9%;
