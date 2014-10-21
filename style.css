@@ -48,8 +48,7 @@ a {
   width: 300px;
   position: absolute;
   bottom: 5%;
-  right: 10%; 
-  margin: 10px;
+  right: 10%;
   background-color: red;
 }
 
@@ -57,8 +56,6 @@ a {
   height: 330px;
   width: 300px;
   background-color: #000;
-  margin: 0 auto;
-  padding: 10px;
   opacity: 0.2;
 }
 
