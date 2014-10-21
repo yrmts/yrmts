@@ -29,13 +29,7 @@ var main = function(){
       left: "-285px"
       }, 600
     );
-    
-    $('#menu-icon').delay(200).animate({
-      left: "3.9%"
-      }, 600
-    );
-  });
-  
+  };
 };
 
 
