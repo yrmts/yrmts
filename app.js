@@ -28,7 +28,7 @@ var main = function(){
       }, 600
     );
     
-    $('#menu-icon').delay(100).animate({
+    $('#menu-icon').delay(200).animate({
       left: "3.9%"
       }, 600
     );
