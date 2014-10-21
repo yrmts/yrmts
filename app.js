@@ -12,12 +12,20 @@ var main = function(){
   $('#menu-icon').hide();
   
   $('#menu-icon').click(function(){
-      $('#menu-icon').animate({left: "285px"}, 500);
-      $('.menu').animate({left: "0px"}, 1300);
-    },
-    function(){
+    if ($('#menu-icon').hasClass('active')){
       $('#menu-icon').delay(200).animate({left: "3.9%"}, 600);
       $('.menu').animate({left: "-285px"}, 600);
+      $('#menu-icon').removeClass('active');
+    }
+        
+    else {$('#menu-icon').animate({left: "285px"}, 500);
+      $('.menu').animate({left: "0px"}, 1300);
+      $('#menu-icon').addClass('active');}
+    };
+  });
+    
+    function(){
+      
     }
   );
   
