@@ -49,14 +49,8 @@ a {
   position: absolute;
   bottom: 5%;
   right: 10%;
-  background-color: red;
-}
-
-#news-box{
-  height: 330px;
-  width: 300px;
   background-color: #000;
-  opacity: 0.2;
+  0.2
 }
 
 .date {
@@ -73,7 +67,7 @@ a {
   font-weight: 10;
 }
 
-#news h3{
+#news-title {
   color: #fff;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
