@@ -12,15 +12,23 @@ var main = function(){
   $('#menu-icon').hide();
   
   $('#menu-icon').click(function(){
-    $('#menu-icon').animate(toggle, {
+    $('#menu-icon').animate({
       left: "285px"
     }, 500)
     
-    $('.menu').animate(toggle, {
+    $('.menu').animate({
       left: "0px"
       }, 1300);
   });
   
+  $('.main').click(function(){
+    $('.menu').animate({
+      left: "-285px"
+    }, 600;
+    $('#menu-icon').animate({
+      left: "0px"
+    }, 1000;)
+  })
 };
 
 
