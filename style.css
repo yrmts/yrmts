@@ -117,6 +117,10 @@ a {
   margin: 25px 65px 25px 25px;
 }
 
+.menu li:hover{
+  cursor: pointer;
+}
+
 
 
 
