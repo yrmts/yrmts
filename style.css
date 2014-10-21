@@ -47,8 +47,8 @@ a {
   height: 350px;
   width: 300px;
   position: absolute;
-  bottom: 20%;
-  right: 30%; 
+  bottom: 15%;
+  right: 15%; 
   margin: 10px;
   background-color: red;
 }
