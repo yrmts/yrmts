@@ -161,10 +161,10 @@ a {
 
 .description{
   height: 50%;
-  width: 30%;
+  width: 33%;
   position: fixed;
-  left: 30%;
-  top: 30%;
+  left: 33%;
+  top: 50%;
   background-color: rgba(0, 0, 0, 0.2);
   padding: 15px;
   overflow: scroll;
