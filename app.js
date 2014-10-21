@@ -9,11 +9,12 @@ var main = function(){
   
   $('#news').hide();
   $('#news-title').hide();
-  $('#menu-icon').hide();
   $('.menu').hide();
   
   $('#menu-icon').click(function(){
-    $('.menu').fadeIn(600)
+    $('.menu').animate({
+      left: "0px"
+      }, 600);
   });
   
 };
