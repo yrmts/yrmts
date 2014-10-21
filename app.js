@@ -27,8 +27,8 @@ var main = function(){
     }, 600;
     $('#menu-icon').animate({
       left: "0px"
-    }, 1000;)
-  })
+    }, 1000);
+  });
 };
 
 
