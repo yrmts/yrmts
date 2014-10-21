@@ -163,8 +163,9 @@ a {
   height: 350px;
   width: 300px;
   position: absolute;
-  bottom: 5%;
-  right: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  top: 30%;
   background-color: rgba(0, 0, 0, 0.2);
   padding: 15px;
   overflow: scroll;
