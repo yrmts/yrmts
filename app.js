@@ -15,7 +15,7 @@ var main = function(){
     $('.menu').animate({
       left: "0px"
       }, 600);
-    $('body').animate({
+    $('.main').animate({
       left: "285px"
       }, 600);
   });
