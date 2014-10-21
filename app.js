@@ -30,15 +30,15 @@ var main = function(){
   });
   
   $('.menu ul li:nth-child(2)').click(function(){
-    $('currentPage').animate({ left: '1400px' }, 2000, 'easeOutSine');
-    $('.profile').animate({ left: '0px' }, 2000, 'easeInSine');
+    $('currentPage').animate({ direction: 'left' }, 2000, 'easeOutSine');
+    $('.profile').animate({ direction: 'left' }, 2000, 'easeInSine');
     
     $('currentPage').removeClass('current');
     $('.profile').addClass('current');
   });
   
   $('.menu ul li:nth-child(1)').click(function(){
-    $('currentPage').animate({ left: '1400px' }, 2000, 'easeOutSine');
+    $('currentPage').animate({ direction: '1400px' }, 2000, 'easeOutSine');
     $('.home').animate({ left: '0px' }, 2000, 'easeInSine');
     
     $('currentPage').removeClass('current');
