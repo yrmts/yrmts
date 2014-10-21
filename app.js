@@ -13,12 +13,7 @@ var main = function(){
   
   
     
-  $('.menu li:first').click(function(){
-    $('.menu').animate({
-      left: "-285px"
-      }, 600
-    )
-  };
+  
 };
 
 
