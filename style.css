@@ -107,10 +107,11 @@ a {
 
 .menu ul{
    list-style-type: none;
+   text-align: center;
 }
 
 .menu li{
-  margin: 20px;
+  margin: 23px;
 }
 
 
