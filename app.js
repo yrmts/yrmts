@@ -19,13 +19,20 @@ var main = function(){
     $('.menu').animate({
       left: "0px"
       }, 1300);
+      
+    $('.main').click(function(){
+      $('.menu').animate({
+        left: "285px"
+        }, 600
+      );
+    
+      $('#menu-icon').animate({
+        left: "0px"
+        }, 1000
+      );
+    });
   });
   
-  $('.main').click(function(){
-    $('.menu').animate({
-      left: "285px"
-    }, 600);
-  });
 };
 
 
