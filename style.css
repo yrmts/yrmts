@@ -162,7 +162,7 @@ a {
 .description{
   height: 50%;
   width: 33%;
-  position: fixed;
+  position: absolute;
   left: 33%;
   top: 50%;
   background-color: rgba(0, 0, 0, 0.2);
