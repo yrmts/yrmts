@@ -5,7 +5,7 @@ var main = function(){
    $('#news').delay(2000).fadeIn(1900);
    $('#news-title').delay(2000).fadeIn(1900);
    $('#menu-icon').delay(2000).fadeIn(1900);
-  })
+  });
   
   $('#news').hide();
   $('#news-title').hide();
@@ -18,7 +18,7 @@ var main = function(){
       left: "-285px"
       }, 600
     )
-  }
+  };
 };
 
 
