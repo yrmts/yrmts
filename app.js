@@ -24,10 +24,7 @@ var main = function(){
   $('.main').click(function(){
     $('.menu').animate({
       left: "285px"
-    }, 600;
-    $('#menu-icon').animate({
-      left: "0px"
-    }, 1000);
+    }, 600);
   });
 };
 
