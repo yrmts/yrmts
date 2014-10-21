@@ -81,6 +81,8 @@ a {
 #menu {
   filter: alpha(opacity=75);
   opacity: 0.75;
+  top: 15%;
+  left: 15%;
 }
 
 
