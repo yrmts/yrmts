@@ -161,9 +161,9 @@ a {
 
 .description{
   height: 50%;
-  width: 33%;
+  width: 33.3%;
   position: absolute;
-  left: 33%;
+  left: 33.3%;
   top: 50%;
   background-color: rgba(0, 0, 0, 0.2);
   padding: 15px;
@@ -180,8 +180,8 @@ a {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   position: absolute;
-  bottom: 61%;
-  right: 30.2%;
+  top: 30%;
+  left: 33.3%;
 }
 
 
