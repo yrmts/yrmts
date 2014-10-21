@@ -149,7 +149,7 @@ a {
   position: fixed;
   top: 0px;
   left: -1400px;
-  background: ('images/profile-bg.jpg') no-repeat center center fixed;
+  background: url('images/profile-bg.jpg') no-repeat center center fixed;
    -webkit-background-size: cover;
      -moz-background-size: cover;
        -o-background-size: cover;
