@@ -29,7 +29,7 @@ var main = function(){
     );
     
     $('#menu-icon').delay(600).animate({
-      left: "60px"
+      left: "var percentLeft = position.left/$(window).width() * 100;"
       }, 1000
     );
   });
