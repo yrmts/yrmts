@@ -10,6 +10,15 @@ var main = function(){
   $('#news').hide();
   $('#news-title').hide();
   $('#menu-icon').hide();
+  $('.menu').hide();
+
+  $('#menu-icon').click(function(){
+    $('.menu').animate({left: "0px"}, 600);
+    $('body').animate({left: 16%}, 600);
+  });
+  
 };
+
+
 
 $(document).ready(main);
