@@ -14,7 +14,7 @@ var main = function(){
   $('#menu-icon').toggle(
     
     function(){
-      $('#menu-icon'.animate({
+      $('#menu-icon').animate({
         left: "285px"}, 500
       );
       $('.menu').animate({
@@ -23,12 +23,12 @@ var main = function(){
     },
     
     function(){
-      $('.menu').animate({
-        left: "-285px"
-        }, 600
-      );
       $('#menu-icon').delay(200).animate({
         left: "3.9%"
+        }, 600
+      );
+      $('.menu').animate({
+        left: "-285px"
         }, 600
       );
     }
