@@ -50,6 +50,7 @@ a {
   bottom: 5%;
   right: 10%;
   background-color: rgba(0, 0, 0, 0.2);
+  padding: 10px;
 }
 
 .date {
@@ -70,6 +71,9 @@ a {
   color: rgba(255, 255, 255, 0.7);
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
+  position: absolute;
+  bottom: 5%;
+  right: 10%;
 }
 
 
