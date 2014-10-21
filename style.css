@@ -91,6 +91,18 @@ a {
   cursor: pointer;
 }
 
+.menu {
+  background-color: rgba(0, 0, 0, 0.2);
+  color: rgba(255, 255, 255, 0.7);
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 16%;
+}
+
 
 
 
