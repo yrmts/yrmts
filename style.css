@@ -159,6 +159,16 @@ a {
   margin: 0;
 }
 
+.description{
+  height: 350px;
+  width: 300px;
+  position: absolute;
+  bottom: 5%;
+  right: 10%;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  overflow: scroll;}
+
 
 
 
