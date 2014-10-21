@@ -61,10 +61,10 @@ a {
 }
 
 .news-post {
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.5);
   font-family: 'Halant', serif;
   font-style: italic;
-  font-weight: 10;
+  font-weight: 8;
 }
 
 #news-title {
@@ -72,7 +72,7 @@ a {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   position: absolute;
-  bottom: 60%;
+  bottom: 60.2%;
   right: 30.2%;
 }
 
