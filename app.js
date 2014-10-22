@@ -32,7 +32,7 @@ var main = function(){
     var Profile = $('.profile');
     
     currentPage.hide('slide', { direction: 'right', easing: 'easeOutCubic' }, 2000).removeClass('visible')
-    Profile.show('slide', { direction: 'right', easing: 'easeInCubic' }, 2000).addClass('visible')
+    Profile.show('slide', { direction: 'left', easing: 'easeInCubic' }, 2000).addClass('visible')
   });
   
    $('ul li:nth-child(1)').click(function(){
@@ -40,7 +40,7 @@ var main = function(){
     var Home = $('.home');
     
     currentPage.hide('slide', { direction: 'right', easing: 'easeOutCubic' }, 2000).removeClass('visible')
-    Home.show('slide', { direction: 'right', easing: 'easeInCubic' }, 2000).addClass('visible')
+    Home.show('slide', { direction: 'left', easing: 'easeInCubic' }, 2000).addClass('visible')
   });
   
 };
