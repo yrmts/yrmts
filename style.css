@@ -268,5 +268,12 @@ a {
   font-weight: 1;
   font-size: 16px;
   font-style: normal;
-  
+  line-height: normal;
+  display: inline-block;
+  -ms-word-break: break-all;
+     word-break: break-all;
+     word-wrap: break-word;
+  -webkit-hyphens: auto;
+     -moz-hyphens: auto;
+          hyphens: auto;
 }
