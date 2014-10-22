@@ -231,12 +231,13 @@ a {
   opacity: 0.72;
   position: absolute;
   margin: 0 auto;
-  top: 45%;
+  top: 40%;
   right: 0;
   left: 0;
 }
 
 .notes #wrapper{
+  background-color: red;
   position: absolute;
   height: 80%;
   width: 60%;
