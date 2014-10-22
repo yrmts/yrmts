@@ -197,7 +197,8 @@ a {
   position: fixed;
   top: 35%;
   left: 33.3%;
-  overflow: scroll;
+  overflow-x: scroll;
+  overflow-y: hidden;
 }
 
 #profile-img img{
