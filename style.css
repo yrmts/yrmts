@@ -184,11 +184,11 @@ a {
   left: 33.3%;
 }
 
-.page{
+.hidden{
   display: none;
 }
 
-.current{
+.visible{
   display: block;
 }
 
