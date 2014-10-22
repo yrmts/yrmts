@@ -30,8 +30,8 @@ var main = function(){
   });
   
   $('.menu ul li:nth-child(2)').click(function(){
-    $('currentPage').fadeOut('slow').removeClass('current').addClass('page');
-    $('.profile').addClass('current').fadeIn('slow');
+    $('currentPage').removeClass('current').addClass('page');
+    $('.profile').removeClass('page').addClass('current');
   });
   
 };
