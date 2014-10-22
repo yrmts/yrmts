@@ -60,6 +60,7 @@ var main = function(){
     
     $('.description').delay(800).show('drop', {direction: 'down'}, 1200);
     $('#profile-title').delay(1600).show('drop', {direction: 'down'}, 800);
+    $('#profile-img').delay(1600).show('drop', {direction: 'down'}, 800);
     
   });
   
