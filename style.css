@@ -238,8 +238,7 @@ a {
   opacity: 0.72;
   position: absolute;
   margin: 0 auto;
-  top: 200px;
-  bottom: 200px;
+  top: 45%;
   right: 0;
   left: 0;
 }
@@ -256,14 +255,7 @@ a {
   width: 100%;
   height: auto;
   line-height: normal;
-  white-space: -moz-pre-wrap !important;  /* Mozilla, since 1999 */
-  white-space: -pre-wrap;      /* Opera 4-6 */
-  white-space: -o-pre-wrap;    /* Opera 7 */
-  white-space: pre-wrap;       /* css-3 */
-  word-wrap: break-word;       /* Internet Explorer 5.5+ */
-  white-space: -webkit-pre-wrap; /* Newer versions of Chrome/Safari*/
-  word-break: break-all;
-  white-space: normal;
+  word-wrap: break-word;
 }
 
 .notes-content{
