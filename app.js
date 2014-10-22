@@ -30,7 +30,7 @@ var main = function(){
   });
   
   $('.menu ul li:nth-child(2)').click(function(){
-    $('currentPage').switchClass('visible', 'hidden');
+    currentPage.switchClass('visible', 'hidden');
     $('.profile').switchClass('hidden', 'visible');
   });
   
