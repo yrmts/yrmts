@@ -37,7 +37,7 @@ var main = function(){
     
     if (currentPage.hasClass('home') == false){
       currentPage.fadeOut(800).removeClass('visible');
-      Home.fadeIn(800).addClass('visible')
+      Home.fadeIn(700).addClass('visible')
     }
     
     $('#news').delay(400).show('drop', {direction: 'down'}, 1200);
@@ -55,7 +55,7 @@ var main = function(){
     
     if (currentPage.hasClass('profile') == false){
       currentPage.fadeOut(800).removeClass('visible')
-      Profile.fadeIn(800).addClass('visible')
+      Profile.fadeIn(700).addClass('visible')
     }
     
     $('.description').delay(400).show('drop', {direction: 'down'}, 1200);
