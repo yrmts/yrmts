@@ -220,12 +220,6 @@ a {
   height: 100%;
   width: 100%;
   margin: 0;
-  -webkit-column-count: 3;
-   -webkit-column-gap:   0px;
-   -moz-column-count:    3;
-   -moz-column-gap:      0px;
-   column-count:         3;
-   column-gap:           0px;
    display: none;
 }
 
@@ -243,7 +237,16 @@ a {
 }
 
 .notes #wrapper{
-  
+  position: absolute;
+  height: 80%;
+  width: 60%;
+  margin: auto;
+  -webkit-column-count: 3;
+  -webkit-column-gap:   0px;
+  -moz-column-count:    3;
+  -moz-column-gap:      0px;
+  column-count:         3;
+  column-gap:           0px;
 }
 
 .notes-post {
