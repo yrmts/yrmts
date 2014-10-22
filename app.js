@@ -40,8 +40,8 @@ var main = function(){
       Home.fadeIn(800).addClass('visible')
     }
     
-    $('#news').delay(800).show('drop', {direction: 'down'}, 1200);
-    $('#news-title').delay(1600).show('drop', {direction: 'down'}, 800);
+    $('#news').delay(400).show('drop', {direction: 'down'}, 1200);
+    $('#news-title').delay(800).show('drop', {direction: 'down'}, 800);
     
   });
   
@@ -58,9 +58,9 @@ var main = function(){
       Profile.fadeIn(800).addClass('visible')
     }
     
-    $('.description').delay(800).show('drop', {direction: 'down'}, 1200);
-    $('#profile-title').delay(1600).show('drop', {direction: 'down'}, 800);
-    $('#profile-img').delay(1600).show('drop', {direction: 'down'}, 800);
+    $('.description').delay(400).show('drop', {direction: 'down'}, 1200);
+    $('#profile-title').delay(800).show('drop', {direction: 'down'}, 800);
+    $('#profile-img').delay(600).show('drop', {direction: 'down'}, 800);
     
   });
   
