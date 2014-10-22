@@ -220,6 +220,13 @@ a {
   width: 100%;
   margin: 0;
   display: none;
+  line-height: 0;
+  -webkit-column-count: 5;
+   -webkit-column-gap:   0px;
+   -moz-column-count:    5;
+   -moz-column-gap:      0px;
+   column-count:         5;
+   column-gap:           0px;
 }
 
 #notes-title {
@@ -237,11 +244,6 @@ a {
 }
 
 .notes-post {
-  height: auto;
-  width: auto;
-  position: absolute;
-  left: 33.3%;
-  top: 50%;
   background-color: rgba(0, 0, 0, 0.2);
   padding: 15px;
   margin: 40px;
@@ -251,6 +253,8 @@ a {
   font-style: italic;
   font-weight: 10;
   font-size: 12px;
+  width: 100%;
+  height: auto;
 }
 
 .notes-content{
