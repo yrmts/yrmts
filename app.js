@@ -37,14 +37,6 @@ var main = function(){
     $('.profile').addClass('current');
   });
   
-  $('.menu ul li:nth-child(1)').click(function(){
-    $('currentPage').fadeOut(2000);
-    $('.home').fadeIn(2000);
-    
-    $('currentPage').removeClass('current');
-    $('.home').addClass('current');
-  });
-  
 };
 
 
