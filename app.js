@@ -1,6 +1,6 @@
 var main = function(){
   
-  var currentPage = $('.current');
+  var currentPage = $('.visible');
   
   $('p').click(function(){
    $(this).hide('drop', {direction: 'down'}, 1300); 
@@ -30,8 +30,8 @@ var main = function(){
   });
   
   $('.menu ul li:nth-child(2)').click(function(){
-    $('currentPage').removeClass('current').addClass('page');
-    $('.profile').removeClass('page').addClass('current');
+    $('currentPage').switchClass('visible', 'hidden');
+    $('.profile').switchClass('hidden', 'visible');
   });
   
 };
