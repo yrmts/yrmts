@@ -11,6 +11,10 @@ var main = function(){
   $('#news').hide();
   $('#news-title').hide();
   $('#menu-icon').hide();
+  $('#profile-title').hide();
+  $('.description').hide();
+  $('#profile-img').hide();
+    
     
   $('#menu-icon').click(function(){
     if ($('#menu-icon').hasClass('active')){
@@ -45,7 +49,12 @@ var main = function(){
       currentPage.fadeOut(1800).removeClass('visible')
       Profile.fadeIn(1800).addClass('visible')
     }
+    
+    $('.description').delay(1500).fadeIn(1500);
+    $('#profile-title').delay(2000).fadeIn(1500);
+    
   });
+  
   
    
   
