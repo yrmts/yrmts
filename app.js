@@ -3,9 +3,9 @@ var main = function(){
   $('p').click(function(){
    $(this).hide('drop', {direction: 'down'}, 1300); 
    $('h1').delay(1200).hide('drop', {direction: 'down'}, 1700);
-   $('#news').delay(2000).fadeIn(1900);
-   $('#news-title').delay(2000).fadeIn(1900);
-   $('#menu-icon').delay(2000).fadeIn(1900);
+   $('#news').delay(2000).fadeIn(1700);
+   $('#news-title').delay(2000).fadeIn(1700);
+   $('#menu-icon').delay(2000).fadeIn(1700);
   });
   
   $('#news').hide();
@@ -36,8 +36,8 @@ var main = function(){
     var Home = $('.home');
     
     if (currentPage.hasClass('home') == false){
-      currentPage.fadeOut(1000).removeClass('visible');
-      Home.fadeIn(1000).addClass('visible')
+      currentPage.fadeOut(800).removeClass('visible');
+      Home.fadeIn(800).addClass('visible')
     }
     
     $('#news').delay(800).show('drop', {direction: 'down'}, 1200);
@@ -54,8 +54,8 @@ var main = function(){
     var Profile = $('.profile');
     
     if (currentPage.hasClass('profile') == false){
-      currentPage.fadeOut(1000).removeClass('visible')
-      Profile.fadeIn(1000).addClass('visible')
+      currentPage.fadeOut(800).removeClass('visible')
+      Profile.fadeIn(800).addClass('visible')
     }
     
     $('.description').delay(800).show('drop', {direction: 'down'}, 1200);
