@@ -42,7 +42,6 @@ var main = function(){
     
     $('#news').delay(400).show('drop', {direction: 'down'}, 1200);
     $('#news-title').delay(800).show('drop', {direction: 'down'}, 800);
-    
   });
   
   $('ul li:nth-child(2)').click(function(){
@@ -61,7 +60,6 @@ var main = function(){
     $('.description').delay(400).show('drop', {direction: 'down'}, 1200);
     $('#profile-title').delay(800).show('drop', {direction: 'down'}, 800);
     $('#profile-img').delay(600).show('drop', {direction: 'down'}, 800);
-    
   });
   
   $('ul li:nth-child(3)').click(function(){
@@ -73,6 +71,7 @@ var main = function(){
       currentPage.fadeOut(800).removeClass('visible')
       Notes.fadeIn(700).addClass('visible')
     }
+  });
     
   $('ul li:nth-child(4)').click(function(){
 
@@ -83,7 +82,6 @@ var main = function(){
       currentPage.fadeOut(800).removeClass('visible')
       Contact.fadeIn(700).addClass('visible')
     }
-    
   });
   
 };
