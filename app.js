@@ -31,10 +31,10 @@ var main = function(){
     var currentPage = $('.visible');
     var Home = $('.home');
     
-    
-    currentPage.fadeOut(2000).removeClass('visible');
+    if (currentPage.hasClass('home') == false){
+      currentPage.fadeOut(2000).removeClass('visible');
     Home.fadeIn(2000).addClass('visible')
-    
+    }
   });
   
   $('ul li:nth-child(2)').click(function(){
