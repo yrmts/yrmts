@@ -195,13 +195,13 @@ a {
   height: 60px;
   width: 1000px;
   position: fixed;
-  top: 33.3%;
+  top: 35%;
   left: 33.3%;
 }
 
 #profile-img img{
-  height: 70px;
-  margin: 10px;
+  height: 80px;
+  margin-right: 20px;
 }
 
 
