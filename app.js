@@ -31,16 +31,17 @@ var main = function(){
     var currentPage = $('.visible');
     var Profile = $('.profile');
     
-    currentPage.hide('slide', { direction: 'right', easing: 'linear' }, 600).removeClass('visible')
-    Profile.show('slide', { direction: 'left', easing: 'linear' }, 600).addClass('visible')
+    Profile.show('slide', { direction: 'left', easing: 'linear' }, 1500).addClass('visible')
+    currentPage.hide('slide', { direction: 'right', easing: 'linear' }, 1500).removeClass('visible')
   });
   
    $('ul li:nth-child(1)').click(function(){
     var currentPage = $('.visible');
     var Home = $('.home');
     
-    currentPage.hide('slide', { direction: 'right', easing: 'linear' }, 600).removeClass('visible')
-    Home.show('slide', { direction: 'left', easing: 'linear' }, 600).addClass('visible')
+    
+    Home.show('slide', { direction: 'left', easing: 'linear' }, 1500).addClass('visible')
+    currentPage.hide('slide', { direction: 'right', easing: 'linear' }, 1500).removeClass('visible')
   });
   
 };
