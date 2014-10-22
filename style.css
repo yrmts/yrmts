@@ -209,10 +209,6 @@ a {
 }
 
 .notes {
-  font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
-  font-weight: 1;
-  font-size: 16px;
-  font-style: normal;
   position: fixed;
   top: 0;
   left: 0;
@@ -247,14 +243,14 @@ a {
 }
 
 .notes-post {
+  font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
+  font-weight: 1;
+  font-size: 16px;
+  font-style: normal;
   background-color: rgba(0, 0, 0, 0.2);
   padding: 15px;
   margin: 40px;
   color: rgba(255, 255, 255, 0.9);
-  font-family: 'Halant', serif;
-  font-style: italic;
-  font-weight: 10;
-  font-size: 12px;
   width: 100%;
   height: auto;
   line-height: normal;
