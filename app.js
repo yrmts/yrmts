@@ -31,16 +31,16 @@ var main = function(){
     var currentPage = $('.visible');
     var Profile = $('.profile');
     
-    currentPage.removeClass('visible')
-    Profile.addClass('visible')
+    currentPage.fadeOut(2000).removeClass('visible')
+    Profile.fadeIn(2000).addClass('visible')
   });
   
    $('ul li:nth-child(1)').click(function(){
     var currentPage = $('.visible');
     var Home = $('.home');
     
-    currentPage.removeClass('visible')
-    Home.addClass('visible')
+    currentPage.fadeOut(2000).removeClass('visible')
+    Home.fadeIn(2000).addClass('visible')
   });
   
 };
