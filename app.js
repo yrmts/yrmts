@@ -31,7 +31,7 @@ var main = function(){
   
   $('.menu ul li:nth-child(2)').click(function(){
     currentPage.removeClass('visible');
-    $('.profile').addClass('visible');
+    $('.profile').switchClass('hidden', 'visible');
   });
   
 };
