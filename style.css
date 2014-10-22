@@ -242,17 +242,21 @@ a {
   left: 0;
 }
 
+.notes-container {
+  width: 100%;
+  height: auto;
+  background-color: red;
+}
+
 .notes-post {
   font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
   font-weight: 1;
   font-size: 16px;
   font-style: normal;
   background-color: rgba(0, 0, 0, 0.2);
-  padding: 0px;
-  margin: 0px;
+  padding: 15px;
+  margin: 30px;
   color: rgba(255, 255, 255, 0.9);
-  width: 100%;
-  height: auto;
   line-height: normal;
   display: inline-block;
   overflow-wrap: break-word;
