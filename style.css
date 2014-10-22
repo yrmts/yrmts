@@ -199,6 +199,7 @@ a {
   left: 33.3%;
   overflow-x: scroll;
   overflow-y: hidden;
+  white-space: nowrap;
 }
 
 #profile-img img{
