@@ -50,8 +50,8 @@ var main = function(){
       Profile.fadeIn(1800).addClass('visible')
     }
     
-    $('.description').delay(1500).fadeIn(1500);
-    $('#profile-title').delay(2000).fadeIn(1500);
+    $('.description').delay(800).show('drop', {direction: 'up'}, 1000);
+    $('#profile-title').delay(1600).('drop', {direction: 'up'}, 800);
     
   });
   
