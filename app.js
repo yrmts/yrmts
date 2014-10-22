@@ -32,6 +32,9 @@ var main = function(){
   });
   
   $('ul li:nth-child(1)').click(function(){
+    ('#news').hide();
+    ('#news-title').hide();
+    
     var currentPage = $('.visible');
     var Home = $('.home');
     
