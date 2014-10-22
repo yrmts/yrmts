@@ -29,7 +29,7 @@ var main = function(){
     }
   });
   
-  $('ul li a.menu:nth-child(2)').click(function(){
+  $('a.menu:nth-child(2)').click(function(){
     currentPage.removeClass('visible')
     $('.profile').addClass('visible')
   });
