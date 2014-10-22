@@ -246,7 +246,7 @@ a {
   margin-right: 20%;
   margin-left: 20%;
   margin-top: 0;
-  margin-bottom: 10%;
+  margin-bottom: 0;
   -webkit-column-count: 3;
   -webkit-column-gap:   0px;
   -moz-column-count:    3;
