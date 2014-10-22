@@ -74,6 +74,16 @@ var main = function(){
       Notes.fadeIn(700).addClass('visible')
     }
     
+  $('ul li:nth-child(4)').click(function(){
+
+    var currentPage = $('.visible');
+    var Contact = $('.contact');
+    
+    if (currentPage.hasClass('.contact') == false){
+      currentPage.fadeOut(800).removeClass('visible')
+      Contact.fadeIn(700).addClass('visible')
+    }
+    
   });
   
 };
