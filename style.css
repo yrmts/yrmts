@@ -193,7 +193,7 @@ a {
 #profile-img {
   opacity: 0.8;
   height: 80px;
-  width: 33.3%;
+  width: auto;
   position: fixed;
   top: 35%;
   left: 33.3%;
