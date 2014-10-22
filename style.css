@@ -237,9 +237,8 @@ a {
 }
 
 .notes #wrapper{
-  background-color: red;
   position: absolute;
-  height: 90%;
+  height: auto;
   width: 60%;
   top: 5%;
   left: 0%;
