@@ -271,3 +271,18 @@ a {
   display: inline-block;
   overflow-wrap: break-word;
 }
+
+.contact {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: url('images/contact-bg.jpg') no-repeat center center fixed;
+   -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: none;
+}
