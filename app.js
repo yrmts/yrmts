@@ -36,8 +36,8 @@ var main = function(){
     var Home = $('.home');
     
     if (currentPage.hasClass('home') == false){
-      currentPage.fadeOut(1800).removeClass('visible');
-      Home.fadeIn(1800).addClass('visible')
+      currentPage.fadeOut(1000).removeClass('visible');
+      Home.fadeIn(1000).addClass('visible')
     }
     
     $('#news').delay(800).show('drop', {direction: 'down'}, 1200);
@@ -54,8 +54,8 @@ var main = function(){
     var Profile = $('.profile');
     
     if (currentPage.hasClass('profile') == false){
-      currentPage.fadeOut(1800).removeClass('visible')
-      Profile.fadeIn(1800).addClass('visible')
+      currentPage.fadeOut(1000).removeClass('visible')
+      Profile.fadeIn(1000).addClass('visible')
     }
     
     $('.description').delay(800).show('drop', {direction: 'down'}, 1200);
