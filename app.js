@@ -32,8 +32,8 @@ var main = function(){
     var Home = $('.home');
     
     if (currentPage.hasClass('home') == false){
-      currentPage.fadeOut(2000).removeClass('visible');
-    Home.fadeIn(2000).addClass('visible')
+      currentPage.fadeOut(1800).removeClass('visible');
+      Home.fadeIn(1800).addClass('visible')
     }
   });
   
@@ -41,9 +41,10 @@ var main = function(){
     var currentPage = $('.visible');
     var Profile = $('.profile');
     
-    currentPage.fadeOut(2000).removeClass('visible')
-    Profile.fadeIn(2000).addClass('visible')
-    
+    if (currentPage.hasClass('profile') == false){
+      currentPage.fadeOut(1800).removeClass('visible')
+      Profile.fadeIn(1800).addClass('visible')
+    }
   });
   
    
