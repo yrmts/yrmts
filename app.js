@@ -64,8 +64,17 @@ var main = function(){
     
   });
   
-  
-   
+  $('ul li:nth-child(3)').click(function(){
+
+    var currentPage = $('.visible');
+    var Notes = $('.notes');
+    
+    if (currentPage.hasClass('.notes') == false){
+      currentPage.fadeOut(800).removeClass('visible')
+      Notes.fadeIn(700).addClass('visible')
+    }
+    
+  });
   
 };
 
