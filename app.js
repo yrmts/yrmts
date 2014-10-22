@@ -1,7 +1,5 @@
 var main = function(){
   
-  var currentPage = $('.current');
-  
   $('p').click(function(){
    $(this).hide('drop', {direction: 'down'}, 1300); 
    $('h1').delay(1400).hide('drop', {direction: 'down'}, 1700);
@@ -32,6 +30,8 @@ var main = function(){
   $('.menu ul li:nth-child(2)').click(function(){
     $('currentPage').fadeOut('slow');
     $('.profile').fadeIn('slow');
+    
+    var currentPage = $('.current');
     
     $('currentPage').removeClass('current');
     $('.profile').addClass('current');
