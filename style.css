@@ -194,6 +194,7 @@ a {
   opacity: 0.75;
   height: 60px;
   width: 1000px;
+  position: fixed;
   top: 40%;
   left: 33.3%;
 }
