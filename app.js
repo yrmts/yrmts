@@ -51,7 +51,7 @@ var main = function(){
     }
     
     $('.description').delay(800).show('drop', {direction: 'up'}, 1000);
-    $('#profile-title').delay(1600).('drop', {direction: 'up'}, 800);
+    $('#profile-title').delay(1600).show('drop', {direction: 'up'}, 800);
     
   });
   
