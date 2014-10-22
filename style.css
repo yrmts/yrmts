@@ -147,8 +147,8 @@ a {
 
 .profile{
   position: fixed;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   background: url('images/profile-bg.jpg') no-repeat center center fixed;
    -webkit-background-size: cover;
      -moz-background-size: cover;
