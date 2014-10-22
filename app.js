@@ -1,7 +1,5 @@
 var main = function(){
   
-  var currentPage = $('.visible');
-  
   $('p').click(function(){
    $(this).hide('drop', {direction: 'down'}, 1300); 
    $('h1').delay(1400).hide('drop', {direction: 'down'}, 1700);
@@ -29,9 +27,12 @@ var main = function(){
     }
   });
   
-  $('a.menu:nth-child(2)').click(function(){
+  $('ul li:nth-child(2)').click(function(){
+    var currentPage = $('.visible');
+    var Profile = $('.profile');
+    
     currentPage.removeClass('visible')
-    $('.profile').addClass('visible')
+    Profile.addClass('visible')
   });
   
 };
