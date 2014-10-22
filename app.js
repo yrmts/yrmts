@@ -31,8 +31,8 @@ var main = function(){
     var currentPage = $('.visible');
     var Profile = $('.profile');
     
-    Profile.show('slide', { direction: 'left', easing: 'linear' }, 1500).addClass('visible')
-    currentPage.hide('slide', { direction: 'right', easing: 'linear' }, 1500).removeClass('visible')
+    Profile.show('slide', { direction: 'left', easing: 'easeInQuad' }, 2000).addClass('visible')
+    currentPage.hide('slide', { direction: 'right', easing: 'easeOutQuad' }, 2000).removeClass('visible')
   });
   
    $('ul li:nth-child(1)').click(function(){
@@ -40,8 +40,8 @@ var main = function(){
     var Home = $('.home');
     
     
-    Home.show('slide', { direction: 'left', easing: 'linear' }, 1500).addClass('visible')
-    currentPage.hide('slide', { direction: 'right', easing: 'linear' }, 1500).removeClass('visible')
+    Home.show('slide', { direction: 'left', easing: 'easeInQuad' }, 2000).addClass('visible')
+    currentPage.hide('slide', { direction: 'right', easing: 'easeOutQuad' }, 2000).removeClass('visible')
   });
   
 };
