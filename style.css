@@ -223,9 +223,11 @@ a {
 }
 
 #notes-title {
-  color: rgba(255, 255, 255, 0.7);
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font-family: 'Megrim', cursive;
+  color: #fff;
+  font-size: 70px;
+  font-weight: 100;
+  opacity: 0.72;
   position: absolute;
   margin: 0 auto;
   top: 200px;
