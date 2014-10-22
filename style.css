@@ -235,3 +235,20 @@ a {
   right: 0;
   left: 0;
 }
+
+.notes-post {
+  height: auto;
+  width: auto;
+  position: absolute;
+  left: 33.3%;
+  top: 50%;
+  background-color: rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  margin: 40px;
+  overflow: scroll;
+  color: rgba(255, 255, 255, 0.75);
+  font-family: 'Halant', serif;
+  font-style: italic;
+  font-weight: 10;
+  font-size: 12px;
+}
