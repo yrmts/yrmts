@@ -190,6 +190,14 @@ a {
   left: 33.3%;
 }
 
+#profile-img {
+  opacity: 0.75;
+  height: 60px;
+  width: 1000px;
+  top: 40%;
+  left: 33.3%;
+}
+
 #profile-img img{
   height: 50px;
 }
