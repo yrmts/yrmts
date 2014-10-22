@@ -247,6 +247,7 @@ a {
   -moz-column-gap:      0px;
   column-count:         3;
   column-gap:           0px;
+  overflow: auto;
 }
 
 .notes-post {
