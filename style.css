@@ -209,6 +209,10 @@ a {
 }
 
 .notes {
+  font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
+  font-weight: 1;
+  font-size: 16px;
+  font-style: normal;
   position: fixed;
   top: 0;
   left: 0;
@@ -253,21 +257,6 @@ a {
   font-size: 12px;
   width: 100%;
   height: auto;
-  line-height: normal;
-  display: inline-block;
-  -ms-word-break: break-all;
-  word-break: break-all;
-  word-wrap: break-word;
-  -webkit-hyphens: auto;
-  -moz-hyphens: auto;
-  hyphens: auto;
-}
-
-.notes-content{
-  font-family: "Times New Roman", "游明朝", YuMincho, "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "メイリオ", Meiryo, serif;
-  font-weight: 1;
-  font-size: 16px;
-  font-style: normal;
   line-height: normal;
   display: inline-block;
   -ms-word-break: break-all;
