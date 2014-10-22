@@ -35,6 +35,14 @@ var main = function(){
     Profile.addClass('visible')
   });
   
+   $('ul li:nth-child(1)').click(function(){
+    var currentPage = $('.visible');
+    var Home = $('.home');
+    
+    currentPage.removeClass('visible')
+    Home.addClass('visible')
+  });
+  
 };
 
 
