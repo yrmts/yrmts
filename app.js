@@ -11,9 +11,6 @@ var main = function(){
   $('#news').hide();
   $('#news-title').hide();
   $('#menu-icon').hide();
-  $('#profile-title').hide();
-  $('.description').hide();
-  $('#profile-img').hide();
     
     
   $('#menu-icon').click(function(){
@@ -49,6 +46,10 @@ var main = function(){
   });
   
   $('ul li:nth-child(2)').click(function(){
+    $('#profile-title').hide();
+    $('.description').hide();
+    $('#profile-img').hide();
+        
     var currentPage = $('.visible');
     var Profile = $('.profile');
     
