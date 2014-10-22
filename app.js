@@ -2,7 +2,7 @@ var main = function(){
   
   $('p').click(function(){
    $(this).hide('drop', {direction: 'down'}, 1300); 
-   $('h1').delay(1400).hide('drop', {direction: 'down'}, 1700);
+   $('h1').delay(1200).hide('drop', {direction: 'down'}, 1700);
    $('#news').delay(2000).fadeIn(1900);
    $('#news-title').delay(2000).fadeIn(1900);
    $('#menu-icon').delay(2000).fadeIn(1900);
@@ -39,6 +39,10 @@ var main = function(){
       currentPage.fadeOut(1800).removeClass('visible');
       Home.fadeIn(1800).addClass('visible')
     }
+    
+    $('#news').delay(800).show('drop', {direction: 'down'}, 1200);
+    $('#news-title').delay(1600).show('drop', {direction: 'down'}, 800);
+    
   });
   
   $('ul li:nth-child(2)').click(function(){
