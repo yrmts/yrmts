@@ -228,5 +228,7 @@ a {
   font-size: 18px;
   position: absolute;
   bottom: 50%;
-  margin: 0 auto;
+  margin-right: 0 auto;
+  margin-left: 0 auto;
+  
 }
