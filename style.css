@@ -239,18 +239,18 @@ a {
 .notes #wrapper{
   position: absolute;
   height: auto;
-  width: 80%;
+  width: 70%;
   top: 5%;
   left: 0%;
-  margin-right: 10%;
-  margin-left: 10%;
+  margin-right: 15;
+  margin-left: 15%;
   margin-top: 0;
   margin-bottom: 0;
-  -webkit-column-count: 3;
+  -webkit-column-count: 2;
   -webkit-column-gap:   0px;
-  -moz-column-count:    3;
+  -moz-column-count:    2;
   -moz-column-gap:      0px;
-  column-count:         3;
+  column-count:         2;
   column-gap:           0px;
   overflow: auto;
 }
