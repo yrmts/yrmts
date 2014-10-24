@@ -303,12 +303,13 @@ a {
 }
 
 .contact-content {
-  position: absolute;
+  position: ;
   top: 30%;
   left: 0%;
   height: 400px;
   width: 600px;
-  margin: 0 auto;
+  margin-right: 0 auto;
+  margin-left: 0 auto;
   padding: 0;
   background-color: red;
   display: block;
