@@ -306,8 +306,9 @@ a {
   position: absolute;
   top: 30%;
   left: 28%;
-  height: 50%;
-  width: 56%;
+  height: 300px;
+  width: 300px;
+  margin: 0 auto;
   padding: 0;
   background-color: red;
 }
