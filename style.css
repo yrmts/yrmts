@@ -320,6 +320,11 @@ a {
   padding: 30px;
   height: 100px;
   width: 400px;
+  width: 120px;
+   -moz-border-radius:    10px;
+   -webkit-border-radius: 10px;
+   border-radius:         10px;
+}
   
 }
 
