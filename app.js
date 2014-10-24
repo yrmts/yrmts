@@ -85,7 +85,7 @@ var main = function(){
     var currentPage = $('.visible');
     var Contact = $('.contact');
     
-    if (currentPage.hasClass('.contact') == false){
+    if (currentPage.hasClass('.notes') == false){
       currentPage.fadeOut(800).removeClass('visible')
       Contact.fadeIn(700).addClass('visible')
     }
