@@ -297,7 +297,7 @@ a {
   width: 80%;
   text-align: center;
   margin: 0 auto;
-  top: 30%;
+  top: 20%;
   right: 0;
   left: 0;
 }
@@ -308,12 +308,14 @@ a {
 }
 
 .contact-content {
+  postiion: absolute;
   width: 600px;
-  height: 400px;
+  height: 350px;
   margin: auto;
   padding: 30px;
   background-color: red;
   display: block;
+  top: 30%;
 }
 
 #contact-sns {
