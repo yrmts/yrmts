@@ -302,7 +302,7 @@ a {
   left: 0;
 }
 
-#contact-container {background-color: blue;
+#contact-container {
   padding: 200px;
   
 }
@@ -312,7 +312,6 @@ a {
   height: 350px;
   margin: auto;
   padding: 30px;
-  background-color: red;
   display: block;
 }
 
