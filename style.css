@@ -302,7 +302,7 @@ a {
   left: 0;
 }
 
-#contact-container {
+#contact-container {background-color: blue;
   padding: 30px;
   top: 30%;
   
@@ -320,13 +320,13 @@ a {
 #contact-sns {
   background-color: black; 
   opacity: 0.2;
-  margin: 0;
+  margin: auto;
   padding: 30px;
 }
 
 #contact-email {
   background-color: black;
   opacity: 0.2;
-  margin: 0;
+  margin: auto;
   padding: 30px;
 }
