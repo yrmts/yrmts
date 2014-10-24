@@ -320,7 +320,6 @@ a {
 #contact-sns {
   background-color: black; 
   opacity: 0.2;
-  height: 30%;
   margin: 0;
   padding: 30px;
 }
@@ -328,7 +327,6 @@ a {
 #contact-email {
   background-color: black;
   opacity: 0.2;
-  height: 30%;
   margin: 0;
   padding: 30px;
 }
