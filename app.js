@@ -72,7 +72,7 @@ var main = function(){
       Notes.fadeIn(700).addClass('visible')
     }
     
-    $('.notes-post').delay(400).show('drop', {direction: 'up'}, 1200);
+    $('.notes-post').delay(300).show('drop', {direction: 'up'}, 800);
   });
     
   $('ul li:nth-child(4)').click(function(){
