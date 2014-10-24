@@ -74,7 +74,7 @@ var main = function(){
       Notes.fadeIn(700).addClass('visible')
     }
     
-    $('.notes-post').delay(300).show('drop', {direction: 'up'}, 800);
+    $('.notes-post').delay(300).show('puff', 600);
   });
     
   $('ul li:nth-child(4)').click(function(){
@@ -90,8 +90,8 @@ var main = function(){
       Contact.fadeIn(700).addClass('visible')
     }
     
-     $('#contact-sns').delay(300).show('drop', {direction: 'up'}, 800);
-     $('#contact-email').delay(500).show('drop', {direction: 'up'}, 800);
+     $('#contact-sns').delay(300).show('drop', {direction: 'down'}, 800);
+     $('#contact-email').delay(500).show('drop', {direction: 'down'}, 800);
   });
   
 };
