@@ -308,14 +308,14 @@ a {
 }
 
 .contact-content {
-  postiion: absolute;
+  position: absolute;
   width: 600px;
   height: 350px;
   margin: auto;
   padding: 30px;
   background-color: red;
   display: block;
-  top: 30%;
+  top: 40%;
 }
 
 #contact-sns {
