@@ -309,6 +309,7 @@ a {
 
 .contact-content {
   width: 600px;
+  height: 400px;
   margin: auto;
   padding: 30px;
   background-color: red;
@@ -320,7 +321,7 @@ a {
   opacity: 0.2;
   margin: auto;
   padding: 30px;
-  height: 200px;
+  height: 50%;
   
 }
 
@@ -329,4 +330,5 @@ a {
   opacity: 0.2;
   margin: auto;
   padding: 30px;
+  height: 50px;
 }
