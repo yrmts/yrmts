@@ -54,7 +54,7 @@ var main = function(){
     
     if (currentPage.hasClass('profile') == false){
       currentPage.fadeOut(800).removeClass('visible')
-      Profile.fadeIn(700).addClass('visible')
+      Profile.show().addClass('visible')
     }
     
     $('.description').delay(300).show('drop', {direction: 'down'}, 1200);
@@ -71,7 +71,7 @@ var main = function(){
     
     if (currentPage.hasClass('.notes') == false){
       currentPage.fadeOut(800).removeClass('visible')
-      Notes.fadeIn(700).addClass('visible')
+      Notes.show().addClass('visible')
     }
     
     $('.notes-post').delay(300).show('drop', {direction: 'down'}, 800);
@@ -87,7 +87,7 @@ var main = function(){
     
     if (currentPage.hasClass('.notes') == false){
       currentPage.fadeOut(800).removeClass('visible')
-      Contact.fadeIn(700).addClass('visible')
+      Contact.show().addClass('visible')
     }
     
      $('#contact-sns').delay(300).show('drop', {direction: 'down'}, 800);
