@@ -74,7 +74,7 @@ var main = function(){
       Notes.fadeIn(700).addClass('visible')
     }
     
-    $('.notes-post').delay(300).show('drop', {direction: 'down'}, 400);
+    $('.notes-post').show('drop', {direction: 'down'}, 800);
   });
     
   $('ul li:nth-child(4)').click(function(){
