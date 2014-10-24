@@ -302,14 +302,14 @@ a {
   left: 0;
 }
 
+#contact-container {
+  padding: 30px;
+}
+
 .contact-content {
-  position: ;
-  top: 30%;
-  left: 0%;
   height: 400px;
   width: 600px;
-  margin-right: 0 auto;
-  margin-left: 0 auto;
+  margin: auto;
   padding: 0;
   background-color: red;
   display: block;
