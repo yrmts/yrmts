@@ -305,12 +305,10 @@ a {
 .contact-content {
   position: absolute;
   top: 30%;
-  left: 0%;
-  height: 100%;
-  padding: 0;
+  left: 28%;
+  height: 50%;
   width: 56%;
-  margin-left: 28%;
-  margin-right: 28%;
+  padding: 0;
   background-color: red;
 }
 
