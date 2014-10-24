@@ -63,8 +63,6 @@ var main = function(){
   });
   
   $('ul li:nth-child(3)').click(function(){
-    
-    $('.notes-post').hide();
 
     var currentPage = $('.visible');
     var Notes = $('.notes');
@@ -73,8 +71,6 @@ var main = function(){
       currentPage.hide().removeClass('visible')
       Notes.show().addClass('visible')
     }
-    
-    $('.notes-post').delay(300).show('drop', {direction: 'down'}, 800);
   });
     
   $('ul li:nth-child(4)').click(function(){
