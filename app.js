@@ -86,7 +86,7 @@ var main = function(){
     var Contact = $('.contact');
     
     if (currentPage.hasClass('.contact') == false){
-      currentPage.hide()).removeClass('visible')
+      currentPage.hide().removeClass('visible')
       Contact.show().addClass('visible')
     }
     
