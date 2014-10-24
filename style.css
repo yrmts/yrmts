@@ -314,7 +314,7 @@ a {
 }
 
 #contact-sns {
-  background: ur('images/speechfromleft.png') no-repeat center center fixed;
+  background: url('images/speechfromleft.png') no-repeat center center fixed;
   opacity: 0.2;
   width: 100%;
   margin: 10%;
@@ -322,7 +322,7 @@ a {
 }
 
 #contact-email {
-  background: ur('images/speechfromright.png') no-repeat center center fixed;
+  background: url('images/speechfromright.png') no-repeat center center fixed;
   opacity: 0.2;
   width: 100%;
   margin: 10%;
