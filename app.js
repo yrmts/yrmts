@@ -36,7 +36,7 @@ var main = function(){
     var Home = $('.home');
     
     if (currentPage.hasClass('home') == false){
-      currentPage.fadeOut(800).removeClass('visible');
+      currentPage.hide().removeClass('visible');
       Home.show().addClass('visible')
     }
     
@@ -53,7 +53,7 @@ var main = function(){
     var Profile = $('.profile');
     
     if (currentPage.hasClass('profile') == false){
-      currentPage.fadeOut(800).removeClass('visible')
+      currentPage.hide().removeClass('visible')
       Profile.show().addClass('visible')
     }
     
@@ -70,7 +70,7 @@ var main = function(){
     var Notes = $('.notes');
     
     if (currentPage.hasClass('.notes') == false){
-      currentPage.fadeOut(800).removeClass('visible')
+      currentPage.hide().removeClass('visible')
       Notes.show().addClass('visible')
     }
     
@@ -86,7 +86,7 @@ var main = function(){
     var Contact = $('.contact');
     
     if (currentPage.hasClass('.contact') == false){
-      currentPage.fadeOut(800).removeClass('visible')
+      currentPage.hide()).removeClass('visible')
       Contact.show().addClass('visible')
     }
     
