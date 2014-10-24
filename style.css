@@ -317,7 +317,10 @@ a {
 
 #contact-sns {
   background-color: rgba(0, 0, 0, 0.2);
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
   padding: 30px;
   height: 80px;
   width: 340px;
@@ -325,7 +328,10 @@ a {
 
 #contact-email {
   background-color: rgba(0, 0, 0, 0.2);
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
   padding: 30px;
   height: 80px;
   width: 340px;
