@@ -36,8 +36,8 @@ var main = function(){
     var Home = $('.home');
     
     if (currentPage.hasClass('home') == false){
-      currentPage.hide().removeClass('visible');
-      Home.fadeIn(700).addClass('visible')
+      currentPage.fadeOut(800).removeClass('visible');
+      Home.show().addClass('visible')
     }
     
     $('#news').delay(300).show('drop', {direction: 'down'}, 1200);
