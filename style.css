@@ -321,24 +321,12 @@ a {
   padding: 30px;
   height: 100px;
   width: 400px;
-  width: 120px;
-}
-
-#contact-sns:before {
-   content:"";
-   position: absolute;
-   right: 100%;
-   top: 26px;
-   width: 0;
-   height: 0;
-   border-top: 13px solid transparent;
-   border-right: 26px solid black;
-   border-bottom: 13px solid transparent;
 }
   
 }
 
 #contact-email {
+  background-color: rgba(0, 0, 0, 0.2);
   margin: auto;
   padding: 30px;
   height: 100px;
