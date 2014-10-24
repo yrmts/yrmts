@@ -303,13 +303,11 @@ a {
 }
 
 #contact-container {background-color: blue;
-  padding: 30px;
-  top: 30%;
+  padding: 300px;
   
 }
 
 .contact-content {
-  height: 400px;
   width: 600px;
   margin: auto;
   padding: 30px;
@@ -322,6 +320,8 @@ a {
   opacity: 0.2;
   margin: auto;
   padding: 30px;
+  height: 200px;
+  
 }
 
 #contact-email {
