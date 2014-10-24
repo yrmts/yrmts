@@ -57,12 +57,14 @@ var main = function(){
       Profile.fadeIn(700).addClass('visible')
     }
     
-    $('.description').delay(400).show('drop', {direction: 'down'}, 1200);
-    $('#profile-title').delay(800).show('drop', {direction: 'down'}, 800);
-    $('#profile-img').delay(600).show('drop', {direction: 'down'}, 800);
+    $('.description').delay(300).show('drop', {direction: 'down'}, 1200);
+    $('#profile-title').delay(700).show('drop', {direction: 'down'}, 800);
+    $('#profile-img').delay(400).show('drop', {direction: 'down'}, 800);
   });
   
   $('ul li:nth-child(3)').click(function(){
+    
+    $('.notes-post').hide();
 
     var currentPage = $('.visible');
     var Notes = $('.notes');
@@ -76,6 +78,9 @@ var main = function(){
   });
     
   $('ul li:nth-child(4)').click(function(){
+    
+    $('#contact-sns').hide();
+    $('#contact-email').hide();
 
     var currentPage = $('.visible');
     var Contact = $('.contact');
@@ -84,6 +89,9 @@ var main = function(){
       currentPage.fadeOut(800).removeClass('visible')
       Contact.fadeIn(700).addClass('visible')
     }
+    
+     $('#contact-sns').delay(300).show('drop', {direction: 'up'}, 800);
+     $('#contact-email').delay(500).show('drop', {direction: 'up'}, 800);
   });
   
 };
