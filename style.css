@@ -317,14 +317,10 @@ a {
   background: url('images/speechfromleft.png') no-repeat center center fixed;
   opacity: 0.2;
   width: 100%;
-  margin: 10%;
-  padding: 30px;
 }
 
 #contact-email {
   background: url('images/speechfromright.png') no-repeat center center fixed;
   opacity: 0.2;
   width: 100%;
-  margin: 10%;
-  padding: 30px;
 }
