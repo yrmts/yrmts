@@ -58,8 +58,8 @@ var main = function(){
     }
     
     $('.description').delay(300).show('drop', {direction: 'down'}, 1200);
-    $('#profile-title').delay(1200).show('drop', {direction: 'down'}, 500);
-    $('#profile-img').delay(800).show('drop', {direction: 'down'}, 500);
+    $('#profile-title').delay(800).show('drop', {direction: 'down'}, 800);
+    $('#profile-img').delay(300).show('drop', {direction: 'down'}, 1200);
   });
   
   $('ul li:nth-child(3)').click(function(){
