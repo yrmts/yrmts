@@ -74,7 +74,7 @@ var main = function(){
       Notes.show().addClass('visible')
     }
     
-    $('.notes-post').delay(300).show('drop', {direction: 'down'}, 800);
+    $('.notes-post').delay(300).show('drop', {direction: 'up'}, 800);
     
   });
     
