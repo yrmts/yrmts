@@ -292,14 +292,15 @@ a {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   position: fixed;
-  top: 20%;
-  left: 0%
   height: 30px;
   padding: auto;
   width: 80%;
-  margin-left: 20%;
-  margin-right: 20%;
   text-align: center;
+  margin: 0 auto;
+  top: 200px;
+  bottom: 200px;
+  right: 0;
+  left: 0;
 }
 
 .contact-content {
