@@ -36,7 +36,6 @@ var main = function(){
     var Home = $('.home');
     
     if (currentPage.hasClass('home') == false){
-      currentPage.fadeOut(800).removeClass('visible');
       Home.fadeIn(700).addClass('visible')
     }
     
