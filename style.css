@@ -311,10 +311,11 @@ a {
   width: 56%;
   margin-left: 28%;
   margin-right: 28%;
+  background-color: red;
 }
 
 #contact-sns {
-  background: url('images/speechfromleft.png') no-repeat center center fixed;
+  background-color: red; 
   opacity: 0.2;
   width: 100%;
   height: 50%;
@@ -323,7 +324,7 @@ a {
 }
 
 #contact-email {
-  background: url('images/speechfromright.png') no-repeat center center fixed;
+  background-color: black;
   opacity: 0.2;
   width: 100%;
   height: 50%;
