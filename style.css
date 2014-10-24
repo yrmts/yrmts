@@ -316,7 +316,7 @@ a {
 }
 
 #contact-sns {
-  background: url('images/speechfromleft.png') no-repeat;
+  background: url('images/speechfromleft.png') no-repeat center center relative;
   opacity: 0.2;
   margin: auto;
   padding: 30px;
@@ -325,7 +325,7 @@ a {
 }
 
 #contact-email {
-  background: url('images/speechfromright.png') no-repeat;
+  background: url('images/speechfromright.png') no-repeat center center relative;
   opacity: 0.2;
   margin: auto;
   padding: 30px;
