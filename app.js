@@ -57,9 +57,9 @@ var main = function(){
       Profile.fadeIn(700).addClass('visible')
     }
     
-    $('.description').delay(300).show('drop', {direction: 'down'}, 500);
+    $('.description').delay(300).show('drop', {direction: 'down'}, 1200);
     $('#profile-title').delay(1200).show('drop', {direction: 'down'}, 500);
-    $('#profile-img').delay(600).show('drop', {direction: 'down'}, 500);
+    $('#profile-img').delay(800).show('drop', {direction: 'down'}, 500);
   });
   
   $('ul li:nth-child(3)').click(function(){
