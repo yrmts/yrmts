@@ -1,11 +1,11 @@
 var main = function(){
   
   $('p').click(function(){
-   $(this).hide('drop', {direction: 'down'}, 1300); 
-   $('h1').delay(1200).hide('drop', {direction: 'down'}, 1700);
-   $('#news').delay(2000).fadeIn(1700);
-   $('#news-title').delay(2000).fadeIn(1700);
-   $('#menu-icon').delay(2000).fadeIn(1700);
+   $(this).hide('drop', {direction: 'down'}, 1200); 
+   $('h1').delay(1200).hide('drop', {direction: 'down'}, 1600);
+   $('#news').delay(1900).fadeIn(1600);
+   $('#news-title').delay(1900).fadeIn(1600);
+   $('#menu-icon').delay(1900).fadeIn(1600);
   });
   
   $('#news').hide();
@@ -15,15 +15,15 @@ var main = function(){
     
   $('#menu-icon').click(function(){
     if ($('#menu-icon').hasClass('active')){
-      $('#menu-icon').delay(200).animate({left: "3.9%"}, 600);
-      $('.menu').animate({left: "-285px"}, 600);
+      $('#menu-icon').delay(200).animate({left: "3.9%"}, 500);
+      $('.menu').animate({left: "-285px"}, 500);
       $('#menu-icon').removeClass('active');
     }
     
         
     else {
-      $('#menu-icon').animate({left: "285px"}, 600);
-      $('.menu').animate({left: "0px"}, 1300);
+      $('#menu-icon').animate({left: "285px"}, 500);
+      $('.menu').animate({left: "0px"}, 1200);
       $('#menu-icon').addClass('active');
     }
   });
@@ -40,7 +40,7 @@ var main = function(){
       Home.fadeIn(700).addClass('visible')
     }
     
-    $('#news').delay(400).show('drop', {direction: 'down'}, 1200);
+    $('#news').delay(300).show('drop', {direction: 'down'}, 1200);
     $('#news-title').delay(800).show('drop', {direction: 'down'}, 800);
   });
   
@@ -58,7 +58,7 @@ var main = function(){
     }
     
     $('.description').delay(300).show('drop', {direction: 'down'}, 1200);
-    $('#profile-title').delay(700).show('drop', {direction: 'down'}, 800);
+    $('#profile-title').delay(600).show('drop', {direction: 'down'}, 800);
     $('#profile-img').delay(400).show('drop', {direction: 'down'}, 800);
   });
   
