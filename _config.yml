@@ -1,0 +1,10 @@
+name: yrmts blog
+
+defaults:
+  -
+    scope: 
+      path: ""
+      type: "pages"
+    values: 
+      layout: "default"
+      
